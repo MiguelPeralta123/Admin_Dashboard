@@ -1,3 +1,7 @@
 .home-container {
     flex: 6;
 }
+
+.chart-widget {
+    display: flex;
+}
