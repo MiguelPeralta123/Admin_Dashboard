@@ -1,7 +1,9 @@
 .order-container {
     flex: 2;
     margin: 2rem;
-    padding: 1.25rem;
+    padding-top: 1.25rem;
+    padding-left: 1.25rem;
+    border-radius: 1rem;
     -webkit-box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.75);
     -moz-box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.75);
     box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.75);
