@@ -1,8 +1,9 @@
 import React from 'react';
 import Featured from '../../components/featured/Featured';
 import Chart from '../../components/chart/Chart';
-import './Home.css'
 import DisplayTotal from '../../components/displayTotal/DisplayTotal';
+import OrderWidget from '../../components/orderWidget/OrderWidget';
+import './Home.css'
 
 const Home = () => {
     return (
@@ -11,6 +12,9 @@ const Home = () => {
             <div className='chart-widget'>
                 <Chart />
                 <DisplayTotal />
+            </div>
+            <div className='order-and-member-widget'>
+                <OrderWidget />
             </div>
         </div>
     );

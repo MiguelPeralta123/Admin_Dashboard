@@ -1,0 +1,66 @@
+.order-container {
+    flex: 2;
+    margin: 2rem;
+    padding: 1.25rem;
+    -webkit-box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.75);
+}
+
+.order-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.order-table {
+    width: 100%;
+    border-spacing: 1.25rem;
+}
+
+.order-th {
+    text-align: left;
+}
+
+.order-customer {
+    display: flex;
+    align-items: center;
+}
+
+.order-image {
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    border: 1px solid blue;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.order-button {
+    width: 5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.order-button:hover {
+    scale: 1.04;
+}
+
+.order-button.Approved {
+    background-color: lightgreen;
+    color: darkgreen;
+    border: 1px solid darkgreen;
+}
+
+.order-button.Pending {
+    background-color: lightyellow;
+    color: darkorange;
+    border: 1px solid darkorange;
+}
+
+.order-button.Declined {
+    background-color: tomato;
+    color: darkred;
+    border: 1px solid darkred;
+}
