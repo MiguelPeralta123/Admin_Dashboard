@@ -1,6 +1,7 @@
 import React from 'react';
 import { Analytics, Assessment, ChatBubble, Email, Grading, Inventory, LineStyle, ManageAccounts, Paid, Person, Report, Timeline, TrendingUp } from '@mui/icons-material'
 import './SideNav.css'
+import { Link } from 'react-router-dom';
 
 const SideNav = () => {
     return (
@@ -10,10 +11,12 @@ const SideNav = () => {
                 <div className='sidenav-menu'>
                     <h3 className='sidenav-title'>Dashboard</h3>
                     <ul className='sidenav-menu-list'>
-                        <li className='sidenav-menu-list-item'>
-                            <LineStyle className='sidenav-icon' />
-                            Home
-                        </li>
+                        <Link className='link' to={'/'}>
+                            <li className='sidenav-menu-list-item'>
+                                <LineStyle className='sidenav-icon' />
+                                Home
+                            </li>
+                        </Link>
                         <li className='sidenav-menu-list-item'>
                             <Timeline className='sidenav-icon' />
                             Analytics
@@ -24,14 +27,16 @@ const SideNav = () => {
                         </li>
                     </ul>
                 </div>
-                
+
                 <div className='sidenav-menu'>
                     <h3 className='sidenav-title'>Admin</h3>
                     <ul className='sidenav-menu-list'>
-                        <li className='sidenav-menu-list-item'>
-                            <Person className='sidenav-icon' />
-                            Users
-                        </li>
+                        <Link className='link' to={'/userlist'}>
+                            <li className='sidenav-menu-list-item'>
+                                <Person className='sidenav-icon' />
+                                Users
+                            </li>
+                        </Link>
                         <li className='sidenav-menu-list-item'>
                             <Paid className='sidenav-icon' />
                             Products
@@ -46,7 +51,7 @@ const SideNav = () => {
                         </li>
                     </ul>
                 </div>
-                
+
                 <div className='sidenav-menu'>
                     <h3 className='sidenav-title'>Notifications</h3>
                     <ul className='sidenav-menu-list'>
@@ -64,7 +69,7 @@ const SideNav = () => {
                         </li>
                     </ul>
                 </div>
-                
+
                 <div className='sidenav-menu'>
                     <h3 className='sidenav-title'>Stats</h3>
                     <ul className='sidenav-menu-list'>

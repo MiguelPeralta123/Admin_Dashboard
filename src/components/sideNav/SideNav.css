@@ -26,6 +26,10 @@
     padding-left: 0;
 }
 
+.link {
+    text-decoration: none;
+}
+
 .sidenav-menu-list-item {
     display: flex;
     align-items: center;

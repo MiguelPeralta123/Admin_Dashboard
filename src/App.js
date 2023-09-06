@@ -1,17 +1,22 @@
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import TopNav from './components/topNav/TopNav';
 import SideNav from './components/sideNav/SideNav';
 import Home from './pages/home/Home';
+import UserList from './pages/userList/UserList'
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <TopNav />
       <div className='container'>
         <SideNav />
-        <Home />
+        <Routes>
+          <Route path='/' element={<Home />}></Route>
+          <Route path='/userlist' element={<UserList />}></Route>
+        </Routes>
       </div>
-    </div>
+    </BrowserRouter>
   );
 }
 

@@ -1,0 +1,22 @@
+export const users = [
+    { id: 1, name: 'Miguel Peralta', avatar: 'images/members/default.png', email: 'maikperalta248@gmail.com', status: 'Active', payments: '$345.50' },
+    { id: 2, name: 'John Smith', avatar: 'images/members/default.png', email: 'johnsmith@gmail.com', status: 'Active', payments: '$512.75' },
+    { id: 3, name: 'Emma Johnson', avatar: 'images/members/default.png', email: 'emmajohnson@gmail.com', status: 'Active', payments: '$276.99' },
+    { id: 4, name: 'Michael Davis', avatar: 'images/members/default.png', email: 'michaeldavis@gmail.com', status: 'Inactive', payments: '$425.35' },
+    { id: 5, name: 'Olivia Wilson', avatar: 'images/members/default.png', email: 'oliviawilson@gmail.com', status: 'Active', payments: '$731.20' },
+    { id: 6, name: 'William Lee', avatar: 'images/members/default.png', email: 'williamlee@gmail.com', status: 'Active', payments: '$198.45' },
+    { id: 7, name: 'Sophia Harris', avatar: 'images/members/default.png', email: 'sophiaharris@gmail.com', status: 'Inactive', payments: '$312.67' },
+    { id: 8, name: 'James Anderson', avatar: 'images/members/default.png', email: 'jamesanderson@gmail.com', status: 'Active', payments: '$543.88' },
+    { id: 9, name: 'Ava Martinez', avatar: 'images/members/default.png', email: 'avamartinez@gmail.com', status: 'Active', payments: '$654.21' },
+    { id: 10, name: 'Benjamin Clark', avatar: 'images/members/default.png', email: 'benjaminclark@gmail.com', status: 'Active', payments: '$789.10' },
+    { id: 11, name: 'Mia Turner', avatar: 'images/members/default.png', email: 'miaturner@gmail.com', status: 'Active', payments: '$123.45' },
+    { id: 12, name: 'Alexander Hall', avatar: 'images/members/default.png', email: 'alexanderhall@gmail.com', status: 'Inactive', payments: '$987.65' },
+    { id: 13, name: 'Charlotte White', avatar: 'images/members/default.png', email: 'charlottewhite@gmail.com', status: 'Active', payments: '$356.78' },
+    { id: 14, name: 'Daniel Adams', avatar: 'images/members/default.png', email: 'danieladams@gmail.com', status: 'Active', payments: '$234.56' },
+    { id: 15, name: 'Emily Scott', avatar: 'images/members/default.png', email: 'emilyscott@gmail.com', status: 'Active', payments: '$789.99' },
+    { id: 16, name: 'Liam Baker', avatar: 'images/members/default.png', email: 'liambaker@gmail.com', status: 'Active', payments: '$456.12' },
+    { id: 17, name: 'Olivia Carter', avatar: 'images/members/default.png', email: 'oliviacarter@gmail.com', status: 'Active', payments: '$567.34' },
+    { id: 18, name: 'Henry Foster', avatar: 'images/members/default.png', email: 'henryfoster@gmail.com', status: 'Active', payments: '$321.98' },
+    { id: 19, name: 'Ella Miller', avatar: 'images/members/default.png', email: 'ellamiller@gmail.com', status: 'Inactive', payments: '$654.32' },
+    { id: 20, name: 'Sebastian Hill', avatar: 'images/members/default.png', email: 'sebastianhill@gmail.com', status: 'Active', payments: '$876.54' }
+];
