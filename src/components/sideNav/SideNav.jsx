@@ -31,7 +31,7 @@ const SideNav = () => {
                 <div className='sidenav-menu'>
                     <h3 className='sidenav-title'>Admin</h3>
                     <ul className='sidenav-menu-list'>
-                        <Link className='link' to={'/userlist'}>
+                        <Link className='link' to={'/users'}>
                             <li className='sidenav-menu-list-item'>
                                 <Person className='sidenav-icon' />
                                 Users

@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import TopNav from './components/topNav/TopNav';
 import SideNav from './components/sideNav/SideNav';
 import Home from './pages/home/Home';
-import UserList from './pages/userList/UserList'
+import Users from './pages/users/Users'
 import './App.css';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
         <SideNav />
         <Routes>
           <Route path='/' element={<Home />}></Route>
-          <Route path='/userlist' element={<UserList />}></Route>
+          <Route path='/users' element={<Users />}></Route>
         </Routes>
       </div>
     </BrowserRouter>
