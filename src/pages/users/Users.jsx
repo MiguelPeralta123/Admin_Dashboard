@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { DataGrid } from '@mui/x-data-grid';
 import { DeleteOutline } from '@mui/icons-material';
 import { usersData } from '../../data/usersData'
-import './Users.css'
 import { Link } from 'react-router-dom';
+import './Users.css'
 
 const Users = () => {
 
@@ -26,7 +26,7 @@ const Users = () => {
                 )
             }
         },
-        { field: 'email', headerName: 'Email', width: 200, },
+        { field: 'email', headerName: 'Email', width: 250, },
         { field: 'status', headerName: 'Status', width: 90, },
         { field: 'payments', headerName: 'Payments', width: 120, },
         {

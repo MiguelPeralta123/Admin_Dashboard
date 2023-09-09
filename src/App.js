@@ -3,6 +3,7 @@ import TopNav from './components/topNav/TopNav';
 import SideNav from './components/sideNav/SideNav';
 import Home from './pages/home/Home';
 import Users from './pages/users/Users'
+import User from './pages/user/User'
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />}></Route>
           <Route path='/users' element={<Users />}></Route>
+          <Route path='/user/:userId' element={<User />}></Route>
         </Routes>
       </div>
     </BrowserRouter>

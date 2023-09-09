@@ -1,5 +1,5 @@
 export const usersData = [
-    { id: 1, name: 'Miguel Peralta', avatar: 'images/members/default.png', email: 'maikperalta248@gmail.com', status: 'Active', payments: '$345.50' },
+    { id: 1, name: 'Miguel Peralta', avatar: 'images/members/miguel.png', email: 'l18330484@hermosillo.tecnm.mx', status: 'Active', payments: '$345.50' },
     { id: 2, name: 'John Smith', avatar: 'images/members/default.png', email: 'johnsmith@gmail.com', status: 'Active', payments: '$512.75' },
     { id: 3, name: 'Emma Johnson', avatar: 'images/members/default.png', email: 'emmajohnson@gmail.com', status: 'Active', payments: '$276.99' },
     { id: 4, name: 'Michael Davis', avatar: 'images/members/default.png', email: 'michaeldavis@gmail.com', status: 'Inactive', payments: '$425.35' },

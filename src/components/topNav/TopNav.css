@@ -61,6 +61,7 @@
 .profile-picture {
     width: 2.8rem;
     height: 2.8rem;
+    object-fit: cover;
     border-radius: 50%;
     cursor: pointer;
 }

@@ -1,0 +1,160 @@
+.top-container {
+    flex: 5;
+    padding: 2rem;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: dodgerblue;
+}
+
+.title {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: aliceblue;
+}
+
+.btn-add-user {
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.user-profile-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 8rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    -webkit-box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.75);
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.user-info-top {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user-info-image {
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user-top-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-weight: bold;
+    color: gray;
+}
+
+.user-info-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.user-info-title {
+    margin-top: 0.8rem;
+    font-weight: bold;
+    color: gray;
+}
+
+.user-info-details {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.user-info-icon {
+    color: dodgerblue;
+}
+
+.user-info-label {
+    color: #444;
+}
+
+.user-update {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.user-update-title {
+    font-weight: bold;
+}
+
+.user-update-form {
+    display: flex;
+    align-items: flex-start;
+    gap: 6rem;
+}
+
+.user-update-form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.user-update-form-input {
+    width: 15rem;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+.user-update-form-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2rem;
+}
+
+.user-update-form-image {
+    position: relative;
+}
+
+.user-update-image {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user-update-label {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.user-update-form-submit {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
