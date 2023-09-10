@@ -1,6 +1,6 @@
 .top-container {
-    flex: 5;
-    padding: 2rem;
+    flex: 6;
+    padding: 1rem 2rem;
 }
 
 .title-container {
@@ -83,7 +83,8 @@
     gap: 0.5rem;
 }
 
-.user-info-icon {
+.user-info-icon,
+.user-update-icon {
     color: dodgerblue;
 }
 
@@ -114,10 +115,14 @@
     margin-bottom: 0.5rem;
 }
 
+.user-update-form-label {
+    margin-left: 0.1rem;
+}
+
 .user-update-form-input {
     width: 15rem;
     padding: 0.25rem 0.5rem;
-    border: 1px solid gray;
+    align-items: center;
     border-radius: 0.5rem;
     outline: none;
 }

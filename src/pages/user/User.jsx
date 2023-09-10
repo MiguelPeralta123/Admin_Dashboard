@@ -1,13 +1,16 @@
 import React from 'react';
 import { PermIdentity, CalendarToday, PhoneAndroid, MailOutline, LocationSearching, Publish } from '@mui/icons-material';
 import './User.css'
+import { Link } from 'react-router-dom';
 
 const User = () => {
     return (
         <div className='top-container'>
             <div className='title-container'>
                 <h1 className='title'>Edit Profile</h1>
-                <button className='btn-add-user'>Create User</button>
+                <Link to={'/user/create'}>
+                    <button className='btn-add-user'>Create User</button>
+                </Link>
             </div>
             <div className='user-profile-container'>
                 <div className='user-info'>
@@ -73,7 +76,7 @@ const User = () => {
                             <div className='user-update-form-image'>
                                 <img className='user-update-image' src='/images/members/miguel.png' alt='User Update' />
                                 <label className='user-update-label' htmlFor='file'><Publish className='user-update-icon' /></label>
-                                <input id='file' type='file' style={{display: 'none'}} />
+                                <input id='file' type='file' style={{ display: 'none' }} />
                             </div>
 
                             <button className='user-update-form-submit' type='submit'>Save</button>

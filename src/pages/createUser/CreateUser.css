@@ -1,0 +1,68 @@
+.create-user-container {
+    flex: 6;
+    padding: 1rem 2rem;
+}
+
+.create-user-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding: 0.8rem 1rem;
+    background-color: dodgerblue;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: aliceblue;
+}
+
+.create-user-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    -webkit-box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.75);
+}
+
+.create-user-form-item {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-user-form-label {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+    color: gray;
+}
+
+.create-user-form-input,
+.create-user-form-select {
+    padding: 0.25rem 0.5rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+.create-user-form-gender > input {
+    margin: 0.5rem 0.15rem 0 0;
+}
+
+.create-user-form-gender > label {
+    margin-right: 1.5rem;
+    color: #555;
+}
+
+.create-user-form-submit {
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
