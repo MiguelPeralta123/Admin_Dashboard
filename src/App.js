@@ -5,6 +5,8 @@ import Home from './pages/home/Home';
 import Users from './pages/users/Users'
 import User from './pages/user/User'
 import CreateUser from './pages/createUser/CreateUser'
+import Products from './pages/products/Products';
+import BuildingPage from './pages/buildingPage/BuildingPage';
 import './App.css';
 
 function App() {
@@ -18,6 +20,17 @@ function App() {
           <Route path='/users' element={<Users />}></Route>
           <Route path='/user/:userId' element={<User />}></Route>
           <Route path='/user/create' element={<CreateUser />}></Route>
+          <Route path='/products' element={<Products />}></Route>
+          
+          {/* Building pages */}
+          <Route path='/analytics' element={<BuildingPage />}></Route>
+          <Route path='/sales' element={<BuildingPage />}></Route>
+          <Route path='/report' element={<BuildingPage />}></Route>
+          <Route path='/transaction' element={<BuildingPage />}></Route>
+          <Route path='/email' element={<BuildingPage />}></Route>
+          <Route path='/messages' element={<BuildingPage />}></Route>
+          <Route path='/manage' element={<BuildingPage />}></Route>
+          <Route path='/reports' element={<BuildingPage />}></Route>
         </Routes>
       </div>
     </BrowserRouter>

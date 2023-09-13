@@ -1,9 +1,21 @@
-import React from 'react';
-import { PermIdentity, CalendarToday, PhoneAndroid, MailOutline, LocationSearching, Publish } from '@mui/icons-material';
+import React, { useEffect, useState } from 'react';
+import { PermIdentity, CalendarToday, PhoneAndroid, MailOutline, LocationSearching, Publish, ArrowBack } from '@mui/icons-material';
+import { Link, useParams } from 'react-router-dom';
+import { usersData } from '../../data/usersData';
 import './User.css'
-import { Link } from 'react-router-dom';
 
 const User = () => {
+
+    const { userId } = useParams()
+    const [user, setUser] = useState([]);
+
+    useEffect(() => {
+        const userIdInt = parseInt(userId, 10);
+        setUser(usersData.find(user => user.id === userIdInt));
+    }, [userId])
+
+    console.log(user)
+
     return (
         <div className='top-container'>
             <div className='title-container'>
@@ -15,33 +27,33 @@ const User = () => {
             <div className='user-profile-container'>
                 <div className='user-info'>
                     <div className='user-info-top'>
-                        <img className='user-info-image' src='/images/members/miguel.png' alt='User' />
+                        <img className='user-info-image' src={`/${user.avatar}`} alt='User' />
                         <div className='user-top-details'>
-                            <span className='user-name'>Miguel Peralta</span>
-                            <span className='user-title'>React Developer</span>
+                            <span className='user-name'>{user.name}</span>
+                            <span className='user-title'>{user.title}</span>
                         </div>
                     </div>
                     <div className='user-info-bottom'>
                         <span className='user-info-title'>Account Details</span>
                         <div className='user-info-details'>
                             <PermIdentity className='user-info-icon' />
-                            <span className='user-info-label'>MaikPeralta</span>
+                            <span className='user-info-label'>{user.username}</span>
                         </div>
                         <div className='user-info-details'>
                             <CalendarToday className='user-info-icon' />
-                            <span className='user-info-label'>Sept 09, 2023</span>
+                            <span className='user-info-label'>{user.dateofbirth}</span>
                         </div>
                         <div className='user-info-details'>
                             <PhoneAndroid className='user-info-icon' />
-                            <span className='user-info-label'>6624042391</span>
+                            <span className='user-info-label'>{user.phone}</span>
                         </div>
                         <div className='user-info-details'>
                             <MailOutline className='user-info-icon' />
-                            <span className='user-info-label'>l18330484@hermosillo.tecnm.mx</span>
+                            <span className='user-info-label'>{user.email}</span>
                         </div>
                         <div className='user-info-details'>
                             <LocationSearching className='user-info-icon' />
-                            <span className='user-info-label'>Hermosillo, Son.</span>
+                            <span className='user-info-label'>{user.address}</span>
                         </div>
                     </div>
                 </div>
@@ -52,29 +64,29 @@ const User = () => {
                         <div className='user-update-form-left'>
                             <div className='user-update-form-item'>
                                 <label className='user-update-form-label'>Username</label>
-                                <input className='user-update-form-input' type='text' placeholder='MaikPeralta' />
+                                <input className='user-update-form-input' type='text' placeholder={user.username} />
                             </div>
                             <div className='user-update-form-item'>
                                 <label className='user-update-form-label'>Full name</label>
-                                <input className='user-update-form-input' type='text' placeholder='Miguel Peralta' />
+                                <input className='user-update-form-input' type='text' placeholder={user.name} />
                             </div>
                             <div className='user-update-form-item'>
                                 <label className='user-update-form-label'>Phone</label>
-                                <input className='user-update-form-input' type='text' placeholder='6624042391' />
+                                <input className='user-update-form-input' type='text' placeholder={user.phone} />
                             </div>
                             <div className='user-update-form-item'>
                                 <label className='user-update-form-label'>Email</label>
-                                <input className='user-update-form-input' type='text' placeholder='l18330484@hermosillo.tecnm.mx' />
+                                <input className='user-update-form-input' type='text' placeholder={user.email} />
                             </div>
                             <div className='user-update-form-item'>
                                 <label className='user-update-form-label'>Address</label>
-                                <input className='user-update-form-input' type='text' placeholder='Hermosillo, Son.' />
+                                <input className='user-update-form-input' type='text' placeholder={user.address} />
                             </div>
                         </div>
 
                         <div className='user-update-form-right'>
                             <div className='user-update-form-image'>
-                                <img className='user-update-image' src='/images/members/miguel.png' alt='User Update' />
+                                <img className='user-update-image' src={`/${user.avatar}`} alt='User Update' />
                                 <label className='user-update-label' htmlFor='file'><Publish className='user-update-icon' /></label>
                                 <input id='file' type='file' style={{ display: 'none' }} />
                             </div>
@@ -84,6 +96,12 @@ const User = () => {
                     </form>
                 </div>
             </div>
+            <Link className='link' to={'/users'}>
+                <button className='btn-back' type='submit'>
+                    <ArrowBack />
+                    Back
+                </button>
+            </Link>
         </div>
     );
 }

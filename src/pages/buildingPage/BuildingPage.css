@@ -1,0 +1,16 @@
+.building-page-container {
+    flex: 6;
+    padding: 2rem;
+}
+
+.building-page-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: gray;
+}
+
+.building-page-image {
+    width: 20rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
