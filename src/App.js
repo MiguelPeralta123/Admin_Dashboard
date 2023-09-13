@@ -6,6 +6,7 @@ import Users from './pages/users/Users'
 import User from './pages/user/User'
 import CreateUser from './pages/createUser/CreateUser'
 import Products from './pages/products/Products';
+import Product from './pages/product/Product'
 import BuildingPage from './pages/buildingPage/BuildingPage';
 import './App.css';
 
@@ -21,6 +22,7 @@ function App() {
           <Route path='/user/:userId' element={<User />}></Route>
           <Route path='/user/create' element={<CreateUser />}></Route>
           <Route path='/products' element={<Products />}></Route>
+          <Route path='/product/:productId' element={<Product />}></Route>
           
           {/* Building pages */}
           <Route path='/analytics' element={<BuildingPage />}></Route>

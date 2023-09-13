@@ -1,0 +1,185 @@
+.top-container {
+    flex: 6;
+    padding: 1rem 2rem;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: dodgerblue;
+}
+
+.title {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: aliceblue;
+}
+
+.btn-add-product {
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.product-profile-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 6rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    -webkit-box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.75);
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.product-info-top {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.product-info-image {
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.product-top-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-weight: bold;
+    color: gray;
+}
+
+.product-info-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.product-info-title {
+    margin-top: 0.8rem;
+    font-weight: bold;
+    color: gray;
+}
+
+.product-info-details {
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.product-info-icon,
+.product-update-icon {
+    color: dodgerblue;
+}
+
+.product-info-label {
+    color: #444;
+}
+
+.product-update {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.product-update-title {
+    font-weight: bold;
+}
+
+.product-update-form {
+    display: flex;
+    align-items: flex-start;
+    gap: 6rem;
+}
+
+.product-update-form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-update-form-label {
+    margin-left: 0.1rem;
+}
+
+.product-update-form-input {
+    width: 15rem;
+    padding: 0.25rem 0.5rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+.product-update-form-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2rem;
+}
+
+.product-update-form-image {
+    position: relative;
+}
+
+.product-update-image {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.product-update-label {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.product-update-form-submit {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.btn-back {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1.2rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}

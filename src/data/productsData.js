@@ -2,137 +2,181 @@ export const productsData = [
     {
         id: 1,
         name: "Apple Airpods",
-        img:
-            "https://ug.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/37/866312/1.jpg?1976",
+        img: "https://ug.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/37/866312/1.jpg?1976",
         stock: 123,
         status: "active",
         price: "$120.00",
+        description: "High-quality wireless earbuds from Apple with advanced features.",
+        category: "Electronics",
+        brand: "Apple",
+        rating: 4.5
     },
     {
         id: 2,
-        name: "Apple Airpods",
-        img:
-            "https://5.imimg.com/data5/VW/KI/MY-14079919/party-gown-500x500.jpg",
+        name: "Elegant Party Gown",
+        img: "https://5.imimg.com/data5/VW/KI/MY-14079919/party-gown-500x500.jpg",
         stock: 123,
         status: "active",
         price: "$120.00",
+        description: "Fashionable party gown for special occasions.",
+        category: "Clothing",
+        brand: "Fashionista",
+        rating: 3.8
     },
     {
         id: 3,
-        name: "Apple Airpods",
-        img:
-            "https://images.meesho.com/images/products/52483851/vje6h_512.jpg",
+        name: "Comfortable Sneakers",
+        img: "https://images.meesho.com/images/products/52483851/vje6h_512.jpg",
         stock: 123,
         status: "active",
         price: "$120.00",
+        description: "Stylish and comfortable shoes for everyday wear.",
+        category: "Footwear",
+        brand: "FootComfort",
+        rating: 4.0
     },
     {
         id: 4,
-        name: "Apple Airpods",
-        img:
-            "https://media.istockphoto.com/photos/young-handsome-guy-in-a-warm-knitted-clothes-against-a-background-of-picture-id1300962106?k=20&m=1300962106&s=612x612&w=0&h=TkNDPpgEDHYG6xXG-f6x7Gg7dF9EMKQTFpSkbOpIniM=",
+        name: "Fashionable Sweater",
+        img: "https://media.istockphoto.com/photos/young-handsome-guy-in-a-warm-knitted-clothes-against-a-background-of-picture-id1300962106?k=20&m=1300962106&s=612x612&w=0&h=TkNDPpgEDHYG6xXG-f6x7Gg7dF9EMKQTFpSkbOpIniM=",
         stock: 123,
         status: "active",
-        price: "$120.00",
+        price: "$60.00",
+        description: "Warm and stylish sweater for the cold season.",
+        category: "Clothing",
+        brand: "FashionStyle",
+        rating: 4.2
     },
     {
         id: 5,
-        name: "Apple Airpods",
-        img:
-            "https://9to5mac.com/wp-content/uploads/sites/6/2022/08/macbook-pro-2022.jpg?quality=82&strip=all",
-        stock: 123,
+        name: "High-Performance Laptop",
+        img: "https://9to5mac.com/wp-content/uploads/sites/6/2022/08/macbook-pro-2022.jpg?quality=82&strip=all",
+        stock: 50,
         status: "active",
-        price: "$120.00",
+        price: "$1500.00",
+        description: "Powerful laptop with top-notch specifications for productivity and gaming.",
+        category: "Electronics",
+        brand: "TechMaster",
+        rating: 4.7
     },
     {
         id: 6,
-        name: "Apple Airpods",
-        img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXuMKCSdNhPSGdtBHuszfVYskfrxEhvNoaqQ&usqp=CAU",
-        stock: 123,
+        name: "Modern Smartphone",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXuMKCSdNhPSGdtBHuszfVYskfrxEhvNoaqQ&usqp=CAU",
+        stock: 80,
         status: "active",
-        price: "$120.00",
+        price: "$800.00",
+        description: "Sleek and advanced smartphone with cutting-edge features.",
+        category: "Electronics",
+        brand: "SmartTech",
+        rating: 4.6
     },
     {
         id: 7,
-        name: "Apple Airpods",
-        img:
-            "https://cdn.mos.cms.futurecdn.net/YThvurvZLE6VVuHkH7npiF-320-80.jpg",
-        stock: 123,
+        name: "Smart TV",
+        img: "https://cdn.mos.cms.futurecdn.net/YThvurvZLE6VVuHkH7npiF-320-80.jpg",
+        stock: 30,
         status: "active",
-        price: "$120.00",
+        price: "$900.00",
+        description: "Large-screen smart TV with stunning picture quality and streaming capabilities.",
+        category: "Electronics",
+        brand: "TVXperience",
+        rating: 4.8
     },
     {
         id: 8,
-        name: "Apple Airpods",
-        img:
-            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/6-1-1652193950.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*",
-        stock: 123,
+        name: "Fashionable Handbag",
+        img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/6-1-1652193950.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*",
+        stock: 100,
         status: "active",
-        price: "$120.00",
+        price: "$80.00",
+        description: "Chic handbag perfect for any occasion, available in various colors.",
+        category: "Fashion Accessories",
+        brand: "ChicStyle",
+        rating: 4.4
     },
     {
         id: 9,
-        name: "Apple Airpods",
-        img:
-            "https://cdn-images.farfetch-contents.com/19/07/14/46/19071446_41679442_480.jpg",
-        stock: 123,
+        name: "Stylish Sunglasses",
+        img: "https://cdn-images.farfetch-contents.com/19/07/14/46/19071446_41679442_480.jpg",
+        stock: 75,
         status: "active",
-        price: "$120.00",
+        price: "$50.00",
+        description: "Trendy sunglasses with UV protection and a modern design.",
+        category: "Fashion Accessories",
+        brand: "SunStyle",
+        rating: 4.2
     },
     {
         id: 10,
-        name: "Apple Airpods",
-        img:
-            "https://cdn-images.farfetch-contents.com/17/74/08/58/17740858_41158570_480.jpg",
-        stock: 123,
+        name: "Casual Sneakers",
+        img: "https://cdn-images.farfetch-contents.com/17/74/08/58/17740858_41158570_480.jpg",
+        stock: 90,
         status: "active",
-        price: "$120.00",
+        price: "$90.00",
+        description: "Comfortable and stylish sneakers for everyday wear.",
+        category: "Footwear",
+        brand: "CasualComfort",
+        rating: 4.0
     },
-
     {
         id: 11,
         name: "Apple Airpods",
-        img:
-            "https://ug.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/37/866312/1.jpg?1976",
+        img: "https://ug.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/37/866312/1.jpg?1976",
         stock: 123,
         status: "active",
         price: "$120.00",
+        description: "High-quality wireless earbuds from Apple with advanced features.",
+        category: "Electronics",
+        brand: "Apple",
+        rating: 4.5
     },
     {
         id: 12,
-        name: "Apple Airpods",
-        img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPjesTHyUmw5cnPs2vPDaxNI2AMV08DfXFyQ&usqp=CAU",
-        stock: 123,
+        name: "Premium Watch",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPjesTHyUmw5cnPs2vPDaxNI2AMV08DfXFyQ&usqp=CAU",
+        stock: 60,
         status: "active",
-        price: "$120.00",
+        price: "$250.00",
+        description: "Elegant and luxurious wristwatch with precision craftsmanship.",
+        category: "Watches",
+        brand: "LuxuryTime",
+        rating: 4.7
     },
     {
         id: 13,
-        name: "Apple Airpods",
-        img:
-            "https://images.meesho.com/images/products/52483851/vje6h_512.jpg",
-        stock: 123,
+        name: "Stylish Handbag",
+        img: "https://images.meesho.com/images/products/52483851/vje6h_512.jpg",
+        stock: 110,
         status: "active",
-        price: "$120.00",
+        price: "$70.00",
+        description: "Fashionable handbag with a trendy design and spacious interior.",
+        category: "Fashion Accessories",
+        brand: "TrendyStyle",
+        rating: 4.3
     },
     {
         id: 14,
-        name: "Apple Airpods",
-        img:
-            "https://media.istockphoto.com/photos/young-handsome-guy-in-a-warm-knitted-clothes-against-a-background-of-picture-id1300962106?k=20&m=1300962106&s=612x612&w=0&h=TkNDPpgEDHYG6xXG-f6x7Gg7dF9EMKQTFpSkbOpIniM=",
+        name: "Fashionable Sweater",
+        img: "https://media.istockphoto.com/photos/young-handsome-guy-in-a-warm-knitted-clothes-against-a-background-of-picture-id1300962106?k=20&m=1300962106&s=612x612&w=0&h=TkNDPpgEDHYG6xXG-f6x7Gg7dF9EMKQTFpSkbOpIniM=",
         stock: 123,
         status: "active",
-        price: "$120.00",
+        price: "$60.00",
+        description: "Warm and stylish sweater for the cold season.",
+        category: "Clothing",
+        brand: "FashionStyle",
+        rating: 4.2
     },
     {
         id: 15,
-        name: "Apple Airpods",
-        img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo5c-VUyK-s0ybBEWGK_Ig6ikxT5CxA4azIg&usqp=CAU",
+        name: "Stylish Sunglasses",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo5c-VUyK-s0ybBEWGK_Ig6ikxT5CxA4azIg&usqp=CAU",
         stock: 123,
         status: "active",
-        price: "$120.00",
-    },
+        price: "$50.00",
+        description: "Trendy sunglasses with UV protection and a modern design.",
+        category: "Fashion Accessories",
+        brand: "SunStyle",
+        rating: 4.2
+    }
 ];

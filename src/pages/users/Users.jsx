@@ -14,7 +14,7 @@ const Users = () => {
     }
 
     const columns = [
-        { field: 'id', headerName: 'ID', width: 70, },
+        { field: 'id', headerName: 'ID', width: 50, },
         {
             field: 'name', headerName: 'Name', width: 200,
             renderCell: (params) => {
@@ -29,7 +29,7 @@ const Users = () => {
         { field: 'title', headerName: 'Title', width: 180, },
         { field: 'email', headerName: 'Email', width: 250, },
         { field: 'status', headerName: 'Status', width: 90, },
-        { field: 'payments', headerName: 'Payments', width: 120, },
+        { field: 'payments', headerName: 'Payments', width: 100, },
         {
             field: 'action', headerName: 'Action', width: 160,
             renderCell: (params) => {

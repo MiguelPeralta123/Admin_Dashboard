@@ -14,8 +14,6 @@ const User = () => {
         setUser(usersData.find(user => user.id === userIdInt));
     }, [userId])
 
-    console.log(user)
-
     return (
         <div className='top-container'>
             <div className='title-container'>

@@ -20,10 +20,10 @@ const MembersWidget = () => {
                 </li>
                 
                 <li className='members-list-item'>
-                    <img className='member-image' src='images/members/david.jpg' alt='User' />
+                    <img className='member-image' src='images/members/john.jpg' alt='User' />
                     <div className='member-info'>
-                        <span className='member-username'>David Anderson</span>
-                        <span className='member-title'>Full-stack Developer</span>
+                        <span className='member-username'>John Smith</span>
+                        <span className='member-title'>Full Stack Developer</span>
                     </div>
                     <button className='display-button'>
                         <Visibility className='display-icon' />
@@ -32,10 +32,10 @@ const MembersWidget = () => {
                 </li>
                 
                 <li className='members-list-item'>
-                    <img className='member-image' src='images/members/emily.jpg' alt='User' />
+                    <img className='member-image' src='images/members/emma.jpg' alt='User' />
                     <div className='member-info'>
-                        <span className='member-username'>Emily Johnson</span>
-                        <span className='member-title'>Front-end Developer</span>
+                        <span className='member-username'>Emma Johnson</span>
+                        <span className='member-title'>UX/UI Designer</span>
                     </div>
                     <button className='display-button'>
                         <Visibility className='display-icon' />
@@ -44,46 +44,46 @@ const MembersWidget = () => {
                 </li>
                 
                 <li className='members-list-item'>
-                    <img className='member-image' src='images/members/james.jpg' alt='User' />
+                    <img className='member-image' src='images/members/michael.jpg' alt='User' />
                     <div className='member-info'>
-                        <span className='member-username'>James Miller</span>
+                        <span className='member-username'>Michael Davis</span>
+                        <span className='member-title'>Backend Developer</span>
+                    </div>
+                    <button className='display-button'>
+                        <Visibility className='display-icon' />
+                        Display
+                    </button>
+                </li>
+                
+                <li className='members-list-item'>
+                    <img className='member-image' src='images/members/olivia.png' alt='User' />
+                    <div className='member-info'>
+                        <span className='member-username'>Olivia Wilson</span>
+                        <span className='member-title'>Frontend Developer</span>
+                    </div>
+                    <button className='display-button'>
+                        <Visibility className='display-icon' />
+                        Display
+                    </button>
+                </li>
+                
+                <li className='members-list-item'>
+                    <img className='member-image' src='images/members/william.png' alt='User' />
+                    <div className='member-info'>
+                        <span className='member-username'>William Lee</span>
+                        <span className='member-title'>Software Engineer</span>
+                    </div>
+                    <button className='display-button'>
+                        <Visibility className='display-icon' />
+                        Display
+                    </button>
+                </li>
+                
+                <li className='members-list-item'>
+                    <img className='member-image' src='images/members/james.png' alt='User' />
+                    <div className='member-info'>
+                        <span className='member-username'>James Anderson</span>
                         <span className='member-title'>DevOps Engineer</span>
-                    </div>
-                    <button className='display-button'>
-                        <Visibility className='display-icon' />
-                        Display
-                    </button>
-                </li>
-                
-                <li className='members-list-item'>
-                    <img className='member-image' src='images/members/sarah.png' alt='User' />
-                    <div className='member-info'>
-                        <span className='member-username'>Sarah Davis</span>
-                        <span className='member-title'>Data Analyst</span>
-                    </div>
-                    <button className='display-button'>
-                        <Visibility className='display-icon' />
-                        Display
-                    </button>
-                </li>
-                
-                <li className='members-list-item'>
-                    <img className='member-image' src='images/members/michael.png' alt='User' />
-                    <div className='member-info'>
-                        <span className='member-username'>Michael Wilson</span>
-                        <span className='member-title'>Python Developer</span>
-                    </div>
-                    <button className='display-button'>
-                        <Visibility className='display-icon' />
-                        Display
-                    </button>
-                </li>
-                
-                <li className='members-list-item'>
-                    <img className='member-image' src='images/members/robert.png' alt='User' />
-                    <div className='member-info'>
-                        <span className='member-username'>Robert Taylor</span>
-                        <span className='member-title'>UI/UX Designer</span>
                     </div>
                     <button className='display-button'>
                         <Visibility className='display-icon' />

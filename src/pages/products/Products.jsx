@@ -14,9 +14,9 @@ const Products = () => {
     }
 
     const columns = [
-        { field: 'id', headerName: 'ID', width: 70, },
+        { field: 'id', headerName: 'ID', width: 50, },
         {
-            field: 'name', headerName: 'Name', width: 200,
+            field: 'name', headerName: 'Name', width: 260,
             renderCell: (params) => {
                 return (
                     <div className='product-container'>
@@ -26,9 +26,11 @@ const Products = () => {
                 )
             }
         },
-        { field: 'stock', headerName: 'Stock', width: 250, },
+        { field: 'category', headerName: 'Category', width: 150, },
+        { field: 'brand', headerName: 'Brand', width: 130, },
+        { field: 'stock', headerName: 'Stock', width: 90, },
         { field: 'status', headerName: 'Status', width: 90, },
-        { field: 'price', headerName: 'Price', width: 120, },
+        { field: 'price', headerName: 'Price', width: 100, },
         {
             field: 'action', headerName: 'Action', width: 160,
             renderCell: (params) => {
